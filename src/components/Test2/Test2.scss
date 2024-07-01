@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.container {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    width: auto;
+    height: auto;
+    // background: linear-gradient(180deg, #4aac6a 24.5%, #b3bebe 100%);
+    margin-top: 4em;
+
+    
+
+    .img-sec{
+        position: absolute;
+        width: 100%;
+;
+        z-index: 0;
+    }
+
+
+
+.header {
+    font-family: Poppins;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 96px;
+    text-align: center;
+    color: rgba(72, 72, 72, 1);
+    position: relative;
+    // margin-bottom: 12em
+    
+    ;
+}
+
+.description {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: rgba(72, 72, 72, 1);
+    position: relative;
+    
+    ;
+}
+
+.logos {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.marquee {
+    display: flex;
+    width: fit-content;
+    animation: marquee 26s linear infinite;
+}
+
+.logo {
+    height: 8em;
+    /* Increased height */
+    margin: 2em;
+}
+
+.stats {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: Fixed (583px)px;
+    height: Hug (60px)px;
+    top: 3266px;
+    left: 408px;
+
+}
+
+.stat {
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+    .header {
+        font-size: 1.5em;
+    }
+
+    .description {
+        font-size: 1em;
+    }
+
+    .stat {
+        font-size: 1.2em;
+    }
+
+    .logo {
+        height: 60px;
+        /* Adjusted height for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        font-size: 1.2em;
+    }
+
+    .description {
+        font-size: 0.9em;
+    }
+
+    .logo {
+        height: 50px;
+        /* Adjusted height for very small screens */
+        margin: 5px;
+    }
+
+    .stat {
+        font-size: 1em;
+    }
+}

@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.case-study1 {
+    position: relative;
+    overflow: hidden;
+    padding: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 75vh;
+
+
+    .video-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -7;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        /* Adjust the opacity as needed */
+        z-index: -1;
+    }
+
+    .center{
+        width: auto;
+        font-family: Poppins;
+text-align: center;
+position: relative;
+z-index: 99;
+color: white;
+
+h1{
+    font-family: Jost;
+    font-size: 103.7px;
+    font-weight: 700;
+    line-height: 149.85px;
+    text-align: center;
+    
+
+}
+p{
+    font-family: Jost;
+    font-size: 19.44px;
+    font-weight: 500;
+    line-height: 28.1px;
+    text-align: center;
+    
+
+
+}
+
+button{
+    width: 10em;
+    padding: 0.6em;
+    margin-top: 2em;
+    border-radius: 5em;
+    color: white;
+    margin-right: 5em;
+
+
+
+
+
+background: rgba(81, 177, 117, 1);
+
+}
+
+    }
+
+
+}
+
+// .case-study1 {
+//     position: relative;
+//     overflow: hidden;
+//     padding: 7rem;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     text-align: center;
+//     height: 75vh;
+//     border-radius: 50px 50px 0 0; /* Adjust the border radius to mimic the curved edges */
+//     background: black; /* Fallback color in case video doesn't load */
+
+//     .video-bg {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+//         object-fit: cover;
+//         z-index: -2;
+//     }
+
+//     .overlay {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+//         background-color: rgba(0, 0, 0, 0.7);
+//         z-index: -1;
+//     }
+
+//     .center {
+//         position: relative;
+//         z-index: 1;
+//         color: white;
+//         font-family: 'Poppins', sans-serif;
+
+//         h1 {
+//             font-family: 'Jost', sans-serif;
+//             font-size: 3em;
+//             font-weight: 700;
+//             line-height: 1.2em;
+//             margin-bottom: 20px;
+//         }
+
+//         p {
+//             font-family: 'Jost', sans-serif;
+//             font-size: 1.2em;
+//             font-weight: 500;
+//             line-height: 1.5em;
+//             margin-bottom: 40px;
+//         }
+
+//         .buttons {
+//             display: flex;
+//             justify-content: center;
+//             gap: 20px;
+//         }
+
+//         button {
+//             width: 10em;
+//             padding: 0.6em;
+//             border-radius: 5em;
+//             color: white;
+//             background: rgba(81, 177, 117, 1);
+//             border: none;
+//             cursor: pointer;
+//             font-size: 1em;
+//         }
+
+//         button:hover {
+//             background: rgba(60, 137, 90, 1);
+//         }
+
+//         @media (max-width: 768px) {
+//             h1 {
+//                 font-size: 2em;
+//             }
+
+//             p {
+//                 font-size: 1em;
+//             }
+
+//             .buttons {
+//                 flex-direction: column;
+//                 gap: 10px;
+//             }
+
+//             button {
+//                 width: 100%;
+//                 margin-right: 0;
+//             }
+//         }
+//     }
+// }
+
+
+
+
+.case-study2 {
+    font-family: ABeeZee;
+    font-size: 77.67px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 83.76px;
+    text-align: center;
+    color: rgba(33, 36, 33, 1);
+    margin-top: 1em;
+
+}
+
+.case-study3 {
+    font-family: ABeeZee;
+    font-size: 21.93px;
+    font-weight: 400;
+    line-height: 23.65px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1.4em;
+    margin-bottom: 1.5em;
+    color: rgba(79, 79, 79, 1);
+    ;
+
+
+}
+
+.case-study4{
+    padding: 3rem;
+    width: 80%;
+    margin-left: 10em;
+
+    img {
+    width: 100%;
+    }
+}
+
+.case-study6 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 2em;
+
+    .case-left {
+        padding: 1rem;
+        width: 35%;
+        // margin: auto;
+        margin-right: 6em;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .case-right1 {
+        font-family: Jost;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 72.48px;
+        text-align: left;
+        margin-top: 0.8em;
+
+        span {
+            font-family: Jost;
+            font-size: 51.85px;
+            font-weight: 00;
+            line-height: 4.93px;
+            text-align: left;
+            color: rgba(81, 177, 117, 1);
+
+        }
+    }
+
+    .case-right2 {
+        font-family: Jost;
+        font-size: 19.44px;
+        font-weight: 500;
+        line-height: 28.1px;
+        text-align: left;
+        color: rgba(112, 112, 112, 1);
+        margin-bottom: 0.9em;
+        margin-top: 0.9em;
+
+
+    }
+
+    .case-right3 {
+        .one {
+            width: 30%;
+            color: white;
+            padding: 1em;
+            background-color: rgba(81, 177, 117, 1);
+            ;
+        }
+    }
+}
+
+.case-study7 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 5em;
+
+    .case-left1 {
+        font-family: Jost;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 72.48px;
+        text-align: left;
+        margin-top: 1.7em;
+        margin-left: 1.5em;
+
+        span {
+            font-family: Jost;
+            font-size: 51.85px;
+            font-weight: 00;
+            line-height: 4.93px;
+            text-align: left;
+            color: rgba(81, 177, 117, 1);
+
+        }
+    }
+
+    .case-left2 {
+        font-family: Jost;
+        font-size: 19.44px;
+        font-weight: 500;
+        line-height: 28.1px;
+        text-align: left;
+        color: rgba(112, 112, 112, 1);
+        margin-bottom: 0.6em;
+        margin-left: 5em;
+        margin-top: 0.7em;
+
+
+    }
+
+    .case-left3 {
+        .one {
+            width: 30%;
+            color: white;
+            padding: 1em;
+            background-color: rgba(81, 177, 117, 1);
+            margin-left: 7.1em;
+            margin-top: 1.7em;
+        }
+    }
+}
+
+.case-study8 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 2em;
+
+    .case-left {
+        padding: 1rem;
+        width: 35%;
+        // margin: auto;
+        margin-right: 6em;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .case-right1 {
+        font-family: Jost;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 72.48px;
+        text-align: left;
+        margin-top: 0.8em;
+
+        span {
+            font-family: Jost;
+            font-size: 51.85px;
+            font-weight: 00;
+            line-height: 4.93px;
+            text-align: left;
+            color: rgba(81, 177, 117, 1);
+
+        }
+    }
+
+    .case-right2 {
+        font-family: Jost;
+        font-size: 19.44px;
+        font-weight: 500;
+        line-height: 28.1px;
+        text-align: left;
+        color: rgba(112, 112, 112, 1);
+        margin-bottom: 0.6em;
+
+
+    }
+
+    .case-right3 {
+        .one {
+            width: 30%;
+            color: white;
+            padding: 1em;
+            background-color: rgba(81, 177, 117, 1);
+            margin-top: 3em;
+        }
+    }
+}
+
+.case-study9 {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 5em;
+    margin-bottom: 3em;
+
+    .case-left1 {
+        font-family: Jost;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 72.48px;
+        text-align: left;
+        margin-top: 1.7em;
+        margin-left: 2.5em;
+
+        span {
+            font-family: Jost;
+            font-size: 51.85px;
+            font-weight: 00;
+            line-height: 4.93px;
+            text-align: left;
+            color: rgba(81, 177, 117, 1);
+
+        }
+    }
+
+    .case-left2 {
+        font-family: Jost;
+        font-size: 19.44px;
+        font-weight: 500;
+        line-height: 28.1px;
+        text-align: left;
+        color: rgba(112, 112, 112, 1);
+        margin-bottom: 0.6em;
+        margin-left: 8em;
+        margin-top: 0.7em;
+
+
+    }
+
+    .case-left3 {
+        .one {
+            width: 30%;
+            color: white;
+            padding: 1em;
+            background-color: rgba(81, 177, 117, 1);
+            margin-left: 11.5em;
+            margin-top: 1.7em;
+        }
+    }
+
+    .case-study9-right {
+        padding: 3rem;
+        width: 45%;
+        
+        margin-right: 3em;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+

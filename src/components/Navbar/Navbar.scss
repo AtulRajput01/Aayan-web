@@ -1,0 +1,93 @@
+// @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+// /* overall navbar design */
+// .navigation {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//     // margin-left: 3em;
+//     // width: 100%;
+//     // margin-top: 2em;
+//     margin: 2em 9em;
+
+
+//     /* the logo design */
+//     .logo {
+//         background: url('./image/Vector.png') no-repeat;
+//         height: 35px;
+//         width: 15%;
+//     }
+
+
+//     /* the menu design */
+//     .nav-menu {
+//         list-style: none;
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         gap: 3.6em;
+//         padding: 0 1em;
+
+//     }
+
+//     .nav-menu a {
+//         text-decoration: none;
+//         color: black;
+//         font-family: 'Poppins', sans-serif;
+//     }
+
+//     /* button design */
+//     button {
+//         width: 9em;
+//         font-weight: 500;
+//         background-color: black;
+//         color: white;
+//         border-radius: 0.5em;
+//         padding: 10px;
+//         font-family: 'Poppins', sans-serif;
+//     }
+// }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* overall navbar design */
+
+.container-fluid{
+
+
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    padding: 1rem 4rem;
+}
+
+.navbar-brand img {
+    height: 35px;
+    margin: 0.4em 4em;
+}
+
+.navbar-brand img:hover {
+    transition: all;
+    transform: scale(1.45);
+}
+
+.navbar-nav .nav-link {
+    color: black;
+    font-weight: 500;
+    padding-left: 1rem;
+    margin-right: 3em;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(24, 146, 38);
+}
+
+/* button design */
+.btn-dark {
+    font-weight: 500;
+    border-radius: 0.5em;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 3em;
+}
+}

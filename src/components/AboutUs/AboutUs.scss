@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.about1 {
+    position: relative;
+    overflow: hidden;
+    padding: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 75vh;
+
+
+    .video-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        /* Adjust the opacity as needed */
+        z-index: 1;
+    }
+
+    .center{
+        width: auto;
+        font-family: Poppins;
+text-align: center;
+position: relative;
+z-index: 1;
+color: white;
+
+
+h1{
+
+font-size: 72px;
+font-weight: 500;
+line-height: 1.2em;
+letter-spacing: .00075em;
+
+
+
+    span{
+    
+    font-size: 72px;
+    font-weight: 500;
+    
+    
+    text-align: center;
+    color: rgba(78, 174, 120, 1);
+    
+    }
+}
+
+p{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 36.08px;
+    text-align: center;
+    margin-top: 1em;
+    color: rgb(241, 233, 233);
+    ;
+    
+
+}
+h3{
+    font-family: Poppins;
+font-size: 30px;
+font-style: italic;
+font-weight: 400;
+line-height: 45px;
+letter-spacing: -0.04em;
+text-align: center;
+
+}
+
+    }
+
+    .center:hover{
+        transition: all;
+        transform: scale(1.05);
+    }
+
+
+}
+
+
+.about2 {
+    padding: 3rem;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 4em;
+
+    img {
+        width: 100%;
+    }
+}
+
+.our1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .one {
+        font-size: 2em;
+        color: rgba(0, 0, 0, 1);
+        font-weight: 400;
+
+    }
+}
+
+.our2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .two {
+        font-size: 2em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgba(33, 36, 33, 1);
+        
+
+        font-family: Plus Jakarta Sans;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 67.2px;
+        letter-spacing: 0.11em;
+        text-align: left;
+
+    }
+}
+
+.about3 {
+    padding: 3rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4em;
+
+    img {
+        width: 100%;
+    }
+}
+
+.about4 {
+    padding: 3rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 4em;
+
+    img {
+        width: 100%;
+    }
+}
+
+.about5 {
+    padding: 3rem;
+    width: 80%;
+    margin: auto;
+    
+
+    img {
+        width: 100%;
+    }
+
+    .button-about5 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 3.5em;
+
+        .button2 {
+            font-size: 1em;
+            color: white;
+            background-color: black;
+            border-radius: 1.5em;
+            width: 8em;
+            padding: 0.4em;
+        }
+    }
+}
+
+.about6{
+    padding: 2rem;
+    width: 100%;
+    margin: auto;
+  
+    img {
+      width: 100%;
+    }
+}
